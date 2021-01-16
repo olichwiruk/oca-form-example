@@ -6,7 +6,9 @@
   "author": "THCLab",
   "license": "MIT",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "build:dev": "webpack --config ./webpack.config.dev.js",
+    "start": "webpack-dev-server"
   },
   "dependencies": {
     "oca.js-vue": "0.1.1"
